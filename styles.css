@@ -34,3 +34,21 @@ section.overview-hero div.container {
 section.overview-hero div.container div.overview-hero-image img {
     width: 15em;
 }
+
+section.learn-about div.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 1em;
+}
+
+section.learn-about div.cards>div.card img {
+    width: 15em;
+}
+
+section.learn-about div.cards div.card:nth-child(2) img {
+    margin-bottom: 3em;
+}
+
+section.learn-about div.cards div.card:first-child img {
+    margin: 4em 0 3em 0;
+}

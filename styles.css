@@ -22,3 +22,15 @@ header div.container nav ul>li {
     display: inline;
     margin-right: .7em;
 }
+
+section.overview-hero div.container {
+    display: grid;
+    padding: 2em 4em 2em 4em;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 5em;
+}
+
+section.overview-hero div.container div.overview-hero-image img {
+    width: 15em;
+}
